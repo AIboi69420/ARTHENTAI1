@@ -1,7 +1,8 @@
 #!/bin/bash
+set -e
 
-# Activate any virtual env if needed (optional)
+# Activate virtual environment if needed
 # source /path/to/venv/bin/activate
 
-# Run the FastAPI app with uvicorn, tuned for production readiness
-uvicorn main:app --host 0.0.0.0 --port 8000 --workers 1 --timeout-keep-alive 120
+# Start your model server or script here
+python3 main.py
