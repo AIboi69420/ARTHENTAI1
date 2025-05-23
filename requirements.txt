@@ -8,3 +8,8 @@ transformers>=4.34.0
 diffusers[torch]>=0.24.0
 safetensors
 accelerate
+pydantic
+# Include your model library, for example:
+
+
+
